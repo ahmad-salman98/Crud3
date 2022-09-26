@@ -1,0 +1,46 @@
+body {
+  background-color: #edf6f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  margin-top: 2rem;
+}
+.welcome h1 {
+  font-weight: 700;
+  font-size: 50%vh;
+  margin-bottom: 2rem;
+}
+.welcome h5 {
+  color: gray;
+  font-size: 15px;
+}
+.welcome img {
+  width: 70%;
+  max-width: 30rem;
+  min-width: 12rem;
+  padding: 3rem 0;
+}
+.welcome form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.welcome form input {
+  height: 3rem;
+  width: 75%;
+  max-width: 25rem;
+  min-width: 15rem;
+  border-radius: 2rem;
+}
+.welcome {
+  border-bottom: 5px solid black;
+}
